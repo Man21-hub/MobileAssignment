@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Wheels (the suitcase body covers their top halves) -->
+    <path
+        android:fillColor="#E8F2FA"
+        android:pathData="M31.5,81 m-3.75,0 a3.75,3.75 0 1,0 7.5,0 a3.75,3.75 0 1,0 -7.5,0" />
+    <path
+        android:fillColor="#E8F2FA"
+        android:pathData="M72.75,81 m-3.75,0 a3.75,3.75 0 1,0 7.5,0 a3.75,3.75 0 1,0 -7.5,0" />
+
+    <!-- Suitcase handle -->
+    <path
+        android:pathData="M43,40 v-10 a10,10 0 0 1 20,0 v10"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Suitcase body -->
+    <path
+        android:fillColor="#E8F2FA"
+        android:pathData="M32.5,40 h43 a5.5,5.5 0 0 1 5.5,5.5 v29 a5.5,5.5 0 0 1 -5.5,5.5 h-43 a5.5,5.5 0 0 1 -5.5,-5.5 v-29 a5.5,5.5 0 0 1 5.5,-5.5 z" />
+
+    <!-- Straps -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M40,46 h3 v27 h-3 z" />
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M65,46 h3 v27 h-3 z" />
+
+    <!-- Latches -->
+    <path
+        android:fillColor="#0B2A4A"
+        android:pathData="M39,52 h5 v3 h-5 z" />
+    <path
+        android:fillColor="#0B2A4A"
+        android:pathData="M64,52 h5 v3 h-5 z" />
+</vector>
